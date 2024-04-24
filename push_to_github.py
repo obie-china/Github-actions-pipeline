@@ -25,11 +25,11 @@ def to_github(func):
     pq.write_table(table, f"data/{file}")
 
     # push to github repo
-    repo = Repo('.')
-    repo.index.add([f"data/{file}"])
-    repo.index.commit(f"Updated {file} data")
-    origin = repo.remote(name='origin')
-    origin.push()
+    # repo = Repo('.')
+    # repo.index.add([f"data/{file}"])
+    # repo.index.commit(f"Updated {file} data")
+    # origin = repo.remote(name='origin')
+    # origin.push()
 
 
     print(f"repo successfully updated")
