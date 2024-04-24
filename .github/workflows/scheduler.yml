@@ -1,4 +1,4 @@
-name: Run Main.py
+name: update data
 
 on:
   schedule:
@@ -26,5 +26,5 @@ jobs:
           pip install -r requirements.txt
 
       
-      - name: run script
+      - name: execute script
         run: python main.py
