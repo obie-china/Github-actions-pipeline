@@ -30,4 +30,12 @@ jobs:
 
       
       - name: run script
-        run: python main.py 
+        run: python main.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.email "iyi.obiechina@gmail.com"
+          git config --global user.name "obie-china"
+          git add .
+          git commit -m "Updated data"
+          git push
