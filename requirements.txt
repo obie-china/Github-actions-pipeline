@@ -1,0 +1,8 @@
+beautifulsoup4==4.12.2
+numpy==1.25.2
+pandas==2.0.3
+psycopg2==2.9.7
+pyarrow==12.0.1
+Requests==2.31.0
+python-dotenv==1.0.0
+GitPython==1.7.0
